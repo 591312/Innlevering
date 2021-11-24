@@ -24,7 +24,7 @@ public class Karakter {
 		if (tallKarakter<50 && tallKarakter>39)
 			karakter = "E";
 		
-		if (tallKarakter<30 && tallKarakter>-1)
+		if (tallKarakter<40 && tallKarakter>-1)
 			karakter = "F";
 		}
 	showMessageDialog(null, karakter);
